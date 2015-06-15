@@ -1,0 +1,13 @@
+extends main_jade
+block content 
+	h1 Results displayed with Jade template
+
+	table
+		each result, i in results
+			tr
+				td= i
+				td= result.image
+				td= result.price_value
+				td= result.description
+				td= result.title_link/_text
+				td= result.image/_alt

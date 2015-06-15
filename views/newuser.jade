@@ -1,0 +1,8 @@
+extends main_jade
+block content 
+	h1 New user
+	
+	form#formAddUser(name="adduser", method="post",action="/addresults")
+		input#inputUserName(type="text", placeholder="username", name="username")
+		input#inputUserEmail(type="text", placeholder="useremail", name="useremail")
+		button#btnSubmit(type="submit") submit
