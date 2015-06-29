@@ -1,0 +1,1 @@
+export PATH="/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:$PATH"
